@@ -1,0 +1,61 @@
+{
+  "name": "frontend-bootstrap-cli",
+  "version": "0.3.0",
+  "description": "Quickly bootstrap your frontend boilerplate library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "frontend-bootstrap-cli": "bin/frontend-bootstrap-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankcode/frontend-bootstrap-cli.git"
+  },
+  "keywords": [
+    "frontend-code",
+    "frontend-boilerplate",
+    "frontend-bootstrap-cli",
+    "boilerplate",
+    "boilerplate-create",
+    "fe-bootstrap-cli",
+    "cli",
+    "react",
+    "react-ts",
+    "vue",
+    "vue-ts",
+    "svelte",
+    "svelte-ts",
+    "preact",
+    "nextjs",
+    "nextjs-ts"
+  ],
+  "author": "Shashank Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shankcode/frontend-bootstrap-cli/issues"
+  },
+  "homepage": "https://github.com/shankcode/frontend-bootstrap-cli#readme",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "execa": "^5.1.1",
+    "gitignore": "^0.7.0",
+    "inquirer": "^8.1.5",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "spdx-license-list": "^6.4.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
+}
