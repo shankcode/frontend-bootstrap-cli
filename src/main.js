@@ -93,7 +93,7 @@ export async function createProject(options) {
         enabled: () => options.git
       },
       {
-        title: `Installing these ${options["packageManager"]} dependencies (This may take a while)`,
+        title: `Installing ${options["packageManager"]} dependencies (This may take a while)`,
         task: () =>
           projectInstall({
             cwd: options.targetDirectory,
@@ -109,24 +109,24 @@ export async function createProject(options) {
   await tasks.run();
   console.log("%s File creation is completed", chalk.green.bold("DONE"));
 
-  const successMessage = "🚀 Your project is ready";
+  const successMessage = "Your project is ready 🚀";
   if (options.packageManager === "npm") {
     console.log(
-      boxen("`npm run dev' to start building your boilerplates", {
+      boxen("`npm start' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   } else if (options.packageManager === "pnpm") {
     console.log(
-      boxen("`pnpm dev' to start building your boilerplates", {
+      boxen("`pnpm start' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   } else {
     console.log(
-      boxen("`yarn dev' to start building your boilerplates", {
+      boxen("`yarn start' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
