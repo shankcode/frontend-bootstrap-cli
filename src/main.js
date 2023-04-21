@@ -64,10 +64,10 @@ export async function createProject(options) {
     "../../templates",
     options.template.toLowerCase()
   );
-  options.templateDirectory = templateDir;
+  options.templateDirectory = decodeURI(templateDir);
 
   try {
-    await access(templateDir, fs.constants.R_OK);
+    await access(decodeURI(templateDir), fs.constants.R_OK);
   } catch (err) {
     console.error("%s Invalid template name", chalk.red.bold("ERROR"));
     process.exit(1);
