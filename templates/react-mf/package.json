@@ -1,0 +1,6 @@
+{
+    "name": "react-mf",
+    "scripts": {
+        "install": "cd Cart && npm install & cd Host && npm install & cd Product && npm install"
+    }
+}
