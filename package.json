@@ -1,6 +1,6 @@
 {
   "name": "frontend-bootstrap-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quickly bootstrap your frontend boilerplate library",
   "main": "src/index.js",
   "scripts": {
@@ -24,15 +24,13 @@
     "boilerplate-create",
     "fe-bootstrap-cli",
     "cli",
+    "react-mf",
     "react",
-    "react-ts",
+    "react-microfrontend",
     "vue",
-    "vue-ts",
     "svelte",
-    "svelte-ts",
     "preact",
-    "nextjs",
-    "nextjs-ts"
+    "nextjs"
   ],
   "author": "Shashank Yadav",
   "license": "MIT",
