@@ -53,7 +53,7 @@ async function initGit(options) {
 export async function createProject(options) {
   options = {
     ...options,
-    targetDirectory: options.targetDirectory || process.cwd(),
+    targetDirectory: options.targetDirectory || `${process.cwd()}/${options.template.toLowerCase()}`,
     email: "https://github.com/shankcode",
     name: "SHASHANK YADAV"
   };
