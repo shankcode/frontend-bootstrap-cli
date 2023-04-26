@@ -112,21 +112,21 @@ export async function createProject(options) {
   const successMessage = "Your project is ready 🚀";
   if (options.packageManager === "npm") {
     console.log(
-      boxen("`npm start' to start building your boilerplates", {
+      boxen("`npm run dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   } else if (options.packageManager === "pnpm") {
     console.log(
-      boxen("`pnpm start' to start building your boilerplates", {
+      boxen("`pnpm run dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   } else {
     console.log(
-      boxen("`yarn start' to start building your boilerplates", {
+      boxen("`yarn run dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
