@@ -11,11 +11,11 @@
 
 </div>
 
-<!-- ## Setup
+## Setup
 
 <p align="center">
-  <img width="500" src="">
-</p> -->
+  <img width="500" src="https://github.com/shankcode/frontend-bootstrap-cli/blob/main/setup.gif">
+</p>
 
 ## Features 
 
